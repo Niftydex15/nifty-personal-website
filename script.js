@@ -184,7 +184,7 @@
         $('#quizQuestion').textContent = score > quizQuestions.length
           ? `You earned ${score} points! 😂`
           : `You got ${score} out of ${quizQuestions.length}!`;
-        $('#quizResult').textContent = score === quizQuestions.length ? 'Perfect score! You know me already. 💗' : 'Now you know a little more about Fyne! Thanks for playing. 💗';
+        $('#quizResult').textContent = score === quizQuestions.length ? 'Perfect score! You know me already. 💗' : 'Now you know a little more about me! Thanks for playing. 💗';
         $('#quizRestart').hidden = false;
         if (!reduceMotion) burstConfetti(button);
       }
